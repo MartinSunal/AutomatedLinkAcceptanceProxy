@@ -7,6 +7,7 @@ const ForwardingDomain = require('onf-core-model-ap/applicationPattern/onfModel/
 const ForwardingConstruct = require('onf-core-model-ap/applicationPattern/onfModel/models/ForwardingConstruct');
 const IndividualServiceUtility = require('./IndividualServiceUtility');
 const eventDispatcher = require('./EventDispatcherWithResponse');
+const createHttpError = require('http-errors');
 
 /**
  * This function fetches the string value from the string profile based on the expected string name.
